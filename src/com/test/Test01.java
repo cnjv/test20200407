@@ -7,6 +7,7 @@ package com.test;
 public class Test01 {
     static String year = "2020";
     static String month = "04";
+    private String name;
 
     public static void main(String[] args){
         System.out.println(getString(year,month));
